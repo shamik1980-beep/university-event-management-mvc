@@ -15,6 +15,7 @@ public class EventController {
         this.eventList = new ArrayList<>();
     }
 
+    // Branch Add Event Created and updating Event Controller with addEvent 
     public void addEvent(Event event) {
         eventList.add(event);
         view.showMessage("Event added successfully.");
